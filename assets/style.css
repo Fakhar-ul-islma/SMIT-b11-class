@@ -1,0 +1,79 @@
+:root {
+    --color1: #001219;
+    --color2: #005f73;
+    --color3: #3d9397;
+    --color4: #94d28d;
+    --color5: #e9d8a6;
+    --color6: #ee9800;
+    --color7: #ca6702;
+    --color8: #bb3e03;
+    --color9: #ae2012;
+    --color10: #9b2226;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+section h2 {
+    font-size: 2.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+figure {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+    max-height: 400px;
+    overflow: hidden;
+    position: relative; 
+    border-width: 10px;
+    border-style: solid
+    border-radius: 5px;
+}
+
+figure img {
+    margin-bottom: -4px;
+    width: 100px;
+    object-fit: cover;
+    object-position: 0 -140px;
+
+}
+
+figcaption {
+    
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+    font-size: 1.875rem;
+    margin: 0;
+    padding: o;
+}
+
+figcaption a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color:var(--color2) ;
+}
+
+.color2,
+.color2 a:hover {
+    border-color: var(--color2);
+    color: var(--color2);
+}

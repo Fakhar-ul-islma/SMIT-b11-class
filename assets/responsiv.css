@@ -1,0 +1,52 @@
+@media (min-width: 550px) {
+    section ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    ::selection li {
+        flex-basis: 49.5%;
+    }
+
+    figure img {
+        object-position: 0;
+    }
+}
+
+@media (min-width: 800px) {
+    section ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    ::selection li {
+        flex-basis: 22.5%;
+    }
+
+
+    figure img {
+        object-position: 0;
+    }
+}
+
+
+
+
+
+@media (min-width: 800px;) {
+    figure {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        gap: 2%;
+
+    }
+    figure img{
+        width: 100%;
+
+    }
+    figcaption{
+        flex-basis: 47%;
+    }
+
+}
